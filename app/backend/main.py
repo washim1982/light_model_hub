@@ -22,7 +22,7 @@ from schemas import (
     UserCreate,
     UserRead,
 )
-
+#comment for commit testing 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 app = FastAPI(title="Light Model Hub API")
 Base.metadata.create_all(bind=engine)
